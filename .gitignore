@@ -1,0 +1,34 @@
+src/*.exe
+src/articfox
+src/articfoxd
+src/test_articfox
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.articfox
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+articfox-qt
+Articfox-Qt.app
+
+# Unit-tests
+Makefile.test
+articfox-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
